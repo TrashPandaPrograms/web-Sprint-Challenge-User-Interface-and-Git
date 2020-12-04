@@ -158,9 +158,15 @@ header{
     background-color: gray;
 }
 
-header nav a{
+header nav{
+    display: flex;
+    align-content: space-around;
+}
+
+.navtop a{
     color: black;
     text-decoration: none;
+    justify-content: space-around;
 }
 
 .jumbo{
